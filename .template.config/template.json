@@ -23,6 +23,8 @@
             "**/.idea/**",
             "**/.git/**",
             "**/.gitignore",
+            "**/.templateignore",
+            "**/anotacoes.txt",
             "**/node_modules/**"
           ]
         }
