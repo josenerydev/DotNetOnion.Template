@@ -1,0 +1,6 @@
+services:
+  dotnetonion.template.webapi:
+    image: ${DOCKER_REGISTRY-}dotnetoniontemplatewebapi
+    build:
+      context: .
+      dockerfile: src/DotNetOnion.Template.WebApi/Dockerfile
