@@ -1,4 +1,4 @@
-namespace Architecture.UnitTests
+namespace DotNetOnion.Template.Architecture.UnitTests
 {
     public class UnitTest1
     {

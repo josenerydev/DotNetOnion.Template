@@ -99,3 +99,20 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull r
 ## 📄 Licença
 
 Este projeto está licenciado sob a licença MIT.
+
+
+# Use o template para criar um novo projeto
+dotnet new dotnet-onion -n MeuNovoProjeto
+```
+
+Se você precisar fazer alterações no template e atualizá-lo, primeiro desinstale a versão atual:
+
+```powershell
+dotnet new uninstall .
+```
+
+E então reinstale-o após as alterações:
+
+```powershell
+dotnet new install .
+```

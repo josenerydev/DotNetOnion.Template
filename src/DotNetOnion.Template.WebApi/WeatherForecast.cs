@@ -1,4 +1,4 @@
-namespace WebApi
+namespace DotNetOnion.Template.WebApi
 {
     public class WeatherForecast
     {
