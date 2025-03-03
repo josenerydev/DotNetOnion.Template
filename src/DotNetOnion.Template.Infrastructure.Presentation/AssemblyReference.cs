@@ -2,7 +2,7 @@
 
 namespace DotNetOnion.Template.Infrastructure.Presentation
 {
-    public class AssemblyReference
+    public static class AssemblyReference
     {
         public static Assembly PresentationAssembly => typeof(AssemblyReference).Assembly;
     }
