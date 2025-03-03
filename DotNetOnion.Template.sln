@@ -38,6 +38,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossCutting", "CrossCuttin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetOnion.Template.CrossCutting.Utils", "src\DotNetOnion.Template.CrossCutting.Utils\DotNetOnion.Template.CrossCutting.Utils.csproj", "{2F59D3FD-59FD-4710-92E3-418C5A350DE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetOnion.Template.CrossCutting.Logging", "src\DotNetOnion.Template.CrossCutting.Logging\DotNetOnion.Template.CrossCutting.Logging.csproj", "{1A1B5F9F-429D-427A-BCD2-671FA47D965E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -80,6 +82,10 @@ Global
 		{2F59D3FD-59FD-4710-92E3-418C5A350DE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F59D3FD-59FD-4710-92E3-418C5A350DE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F59D3FD-59FD-4710-92E3-418C5A350DE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A1B5F9F-429D-427A-BCD2-671FA47D965E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A1B5F9F-429D-427A-BCD2-671FA47D965E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A1B5F9F-429D-427A-BCD2-671FA47D965E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A1B5F9F-429D-427A-BCD2-671FA47D965E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -97,6 +103,7 @@ Global
 		{32C6CDDD-C86E-4A2D-A68D-D4587305F2D4} = {FF65D7FF-5F95-4367-BE1D-C9B7E5AACED1}
 		{0643F3F8-3750-4BCC-9E09-BD6548990F5F} = {B8C16066-ECEE-499E-A4B8-8749B69452A6}
 		{2F59D3FD-59FD-4710-92E3-418C5A350DE2} = {0643F3F8-3750-4BCC-9E09-BD6548990F5F}
+		{1A1B5F9F-429D-427A-BCD2-671FA47D965E} = {0643F3F8-3750-4BCC-9E09-BD6548990F5F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {01D22C33-4072-4D5B-83A0-916EBC3B4FC6}
