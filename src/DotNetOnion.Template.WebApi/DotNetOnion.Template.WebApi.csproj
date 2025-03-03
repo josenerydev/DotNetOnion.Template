@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
     <ItemGroup>
         <PackageReference Include="Swashbuckle.AspNetCore" />
@@ -6,6 +6,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\DotNetOnion.Template.CrossCutting.Logging\DotNetOnion.Template.CrossCutting.Logging.csproj" />
+      <ProjectReference Include="..\DotNetOnion.Template.Infrastructure.Presentation\DotNetOnion.Template.Infrastructure.Presentation.csproj" />
     </ItemGroup>
 
 </Project>

@@ -1,4 +1,5 @@
 ﻿using DotNetOnion.Template.CrossCutting.Logging;
+using DotNetOnion.Template.Infrastructure.Presentation;
 
 using Serilog;
 
@@ -10,8 +11,11 @@ try
 {
     builder.Services.AddSerilogConfiguration(builder.Configuration);
 
-    builder.Services.AddControllers();
+    builder.Services.AddControllers()
+        .AddApplicationPart(AssemblyReference.PresentationAssembly);
+
     builder.Services.AddEndpointsApiExplorer();
+
     builder.Services.AddSwaggerGen();
 
     var app = builder.Build();
