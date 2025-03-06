@@ -1,5 +1,7 @@
 # DotNetOnion.Template
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=josenerydev_DotNetOnion.Template&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=josenerydev_DotNetOnion.Template)
+
 Template para criação rápida de projetos seguindo a Onion Architecture com boas práticas.
 
 ## 📁 Estrutura
